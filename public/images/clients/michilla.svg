@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" width="200" height="60">
+      <rect width="200" height="60" rx="6" fill="#B45309"/>
+      <circle cx="40" cy="30" r="14" fill="#F59E0B"/>
+      <path d="M34 32 L40 22 L46 32 Z" fill="#78350F"/>
+      <text x="64" y="28" font-family="Arial, sans-serif" font-weight="900" font-size="13" fill="#FFFFFF" letter-spacing="1">MINERA MICHILLA</text>
+      <text x="64" y="43" font-family="Arial, sans-serif" font-weight="700" font-size="9" fill="#FEF3C7" letter-spacing="0.5">ANTOFAGASTA MINERALS</text>
+    </svg>

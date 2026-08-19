@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" width="200" height="60">
+      <rect width="200" height="60" rx="6" fill="#C51818"/>
+      <path d="M30 36 L45 18 L55 18 L40 36 Z" fill="#FACC15" />
+      <path d="M42 36 L57 18 L67 18 L52 36 Z" fill="#FACC15" />
+      <text x="75" y="33" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-style="italic" font-size="18" fill="#FFFFFF" letter-spacing="0.5">GARREAU</text>
+      <text x="75" y="45" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="7" fill="#FFFFFF" letter-spacing="1.5">INGENIERIA Y CONSTRUCCION</text>
+      <text x="145" y="53" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="7" fill="#FACC15">DESDE 1958</text>
+    </svg>
