@@ -19,6 +19,11 @@ export const metadata: Metadata = {
   verification: {
     google: "6S6rWK9-x6IP3WOyDmOEP1sU8IvDkBCcgjTlUOXW-HY",
   },
+  icons: {
+    icon: "/Recurso 2.png",
+    shortcut: "/Recurso 2.png",
+    apple: "/Recurso 2.png",
+  },
 };
 
 const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_ID || "G-XXXXXXXXXX";
