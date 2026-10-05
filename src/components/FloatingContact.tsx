@@ -42,7 +42,7 @@ export default function FloatingContact() {
 
       {/* WhatsApp Floating Button */}
       <a
-        href={`https://wa.me/56957530139?text=${whatsappMessage}`}
+        href={`https://wa.me/${SITE_DATA.company.phone.replace(/\D/g, "")}?text=${whatsappMessage}`}
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Contactar por WhatsApp"

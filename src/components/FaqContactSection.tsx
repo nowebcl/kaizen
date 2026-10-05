@@ -93,12 +93,25 @@ export default function FaqContactSection() {
                 <span className="block text-xs text-gray-400 font-medium">
                   ¿Prefieres hablar con un experto?
                 </span>
-                <a
-                  href={`tel:${SITE_DATA.company.phone.replace(/\s+/g, "")}`}
-                  className="text-base sm:text-lg font-black text-white hover:text-[#E32819] transition-colors"
-                >
-                  {SITE_DATA.company.phoneFormatted}
-                </a>
+                <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
+                  <a
+                    href={`tel:${SITE_DATA.company.phone.replace(/\s+/g, "")}`}
+                    className="text-base sm:text-lg font-black text-white hover:text-[#E32819] transition-colors"
+                  >
+                    {SITE_DATA.company.phoneFormatted}
+                  </a>
+                  {SITE_DATA.company.phoneSecondary && (
+                    <>
+                      <span className="text-gray-500 hidden sm:inline">•</span>
+                      <a
+                        href={`tel:${SITE_DATA.company.phoneSecondary.replace(/\s+/g, "")}`}
+                        className="text-sm sm:text-base font-bold text-gray-300 hover:text-[#E32819] transition-colors"
+                      >
+                        {SITE_DATA.company.phoneSecondaryFormatted}
+                      </a>
+                    </>
+                  )}
+                </div>
               </div>
             </div>
           </div>

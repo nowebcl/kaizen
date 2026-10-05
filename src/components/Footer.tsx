@@ -111,14 +111,24 @@ export default function Footer() {
                 <MapPin className="w-4 h-4 text-[#E32819] flex-shrink-0 mt-0.5" />
                 <span>{SITE_DATA.company.address}</span>
               </div>
-              <div className="flex items-center gap-2.5">
-                <Phone className="w-4 h-4 text-[#E32819] flex-shrink-0" />
-                <a
-                  href={`tel:${SITE_DATA.company.phone.replace(/\s+/g, "")}`}
-                  className="hover:text-white transition-colors"
-                >
-                  {SITE_DATA.company.phoneFormatted}
-                </a>
+              <div className="flex items-start gap-2.5">
+                <Phone className="w-4 h-4 text-[#E32819] flex-shrink-0 mt-0.5" />
+                <div className="flex flex-col gap-0.5">
+                  <a
+                    href={`tel:${SITE_DATA.company.phone.replace(/\s+/g, "")}`}
+                    className="hover:text-white transition-colors"
+                  >
+                    {SITE_DATA.company.phoneFormatted}
+                  </a>
+                  {SITE_DATA.company.phoneSecondary && (
+                    <a
+                      href={`tel:${SITE_DATA.company.phoneSecondary.replace(/\s+/g, "")}`}
+                      className="hover:text-white transition-colors text-gray-400"
+                    >
+                      {SITE_DATA.company.phoneSecondaryFormatted}
+                    </a>
+                  )}
+                </div>
               </div>
               <div className="flex items-center gap-2.5">
                 <Mail className="w-4 h-4 text-[#E32819] flex-shrink-0" />
