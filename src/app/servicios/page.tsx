@@ -8,8 +8,18 @@ import FloatingContact from "@/components/FloatingContact";
 import { SITE_DATA } from "@/data/content";
 
 export const metadata = {
-  title: "Servicios de Ingeniería | Kaizen Ingeniería Antofagasta",
-  description: "Servicios especializados en protección anticorrosiva, revestimientos industriales, mantención de infraestructura y obras civiles.",
+  title: "Servicios de HDPE, Fibra de Vidrio y Mantención en Antofagasta | Kaizen Ingeniería",
+  description: "Servicios especializados en HDPE en Antofagasta (termofusión, piping y geomembranas) y Fibra de Vidrio en Antofagasta (revestimientos FRP, estanques y reparaciones). Cobertura minera 24/7.",
+  keywords: [
+    "HDPE Antofagasta",
+    "HDPE en Antofagasta",
+    "Fibra de vidrio Antofagasta",
+    "Fibra de vidrio en Antofagasta",
+    "Termofusión HDPE Antofagasta",
+    "Geomembranas HDPE Antofagasta",
+    "Revestimientos fibra de vidrio Antofagasta",
+    "Estanques fibra de vidrio Antofagasta"
+  ],
 };
 
 export default function ServiciosPage() {
@@ -21,13 +31,13 @@ export default function ServiciosPage() {
       <section className="relative pt-36 pb-20 bg-[#0B131E] text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4">
           <span className="text-xs sm:text-sm font-extrabold uppercase tracking-widest text-[#E32819]">
-            NUESTRA OFERTA DE VALOR
+            SERVICIOS ESPECIALIZADOS EN ANTOFAGASTA Y II REGIÓN
           </span>
           <h1 className="text-3xl sm:text-5xl font-extrabold text-white">
-            Servicios de Ingeniería Especializada
+            Servicios de HDPE, Fibra de Vidrio e Ingeniería
           </h1>
           <p className="text-gray-300 max-w-2xl mx-auto text-sm sm:text-base">
-            Soluciones integrales de alto estándar diseñadas para proteger sus activos industriales, maximizar su vida útil y asegurar la continuidad operacional.
+            Líderes en termofusión de tuberías HDPE, instalación de geomembranas y revestimiento de estanques en fibra de vidrio (FRP) para la gran minería e industria en Antofagasta.
           </p>
         </div>
       </section>

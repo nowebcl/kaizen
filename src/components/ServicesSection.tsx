@@ -3,12 +3,16 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { ShieldAlert, HardHat, Wrench, Building2, Check, ArrowRight } from "lucide-react";
+import { ShieldAlert, HardHat, Wrench, Building2, Check, ArrowRight, Flame, Layers } from "lucide-react";
 import { SITE_DATA } from "@/data/content";
 
 export default function ServicesSection() {
   const getIcon = (iconName: string) => {
     switch (iconName) {
+      case "Flame":
+        return <Flame className="w-5 h-5 stroke-[2]" />;
+      case "Layers":
+        return <Layers className="w-5 h-5 stroke-[2]" />;
       case "ShieldAlert":
         return <ShieldAlert className="w-5 h-5 stroke-[2]" />;
       case "Paintbrush":
@@ -28,18 +32,18 @@ export default function ServicesSection() {
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto space-y-3 mb-16">
           <span className="text-xs sm:text-sm font-extrabold uppercase tracking-widest text-[#E32819]">
-            NUESTROS SERVICIOS
+            SERVICIOS ESPECIALIZADOS EN ANTOFAGASTA
           </span>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-950 tracking-tight">
-            Ingeniería que agrega valor
+            HDPE, Fibra de Vidrio e Ingeniería Industrial
           </h2>
           <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
-            Entregamos soluciones integrales que mejoran la confiabilidad, seguridad y eficiencia de sus instalaciones. Cada servicio está diseñado para responder a los más altos estándares de la industria.
+            Líderes en termofusión de HDPE, geomembranas, revestimientos en fibra de vidrio (FRP), protección anticorrosiva y mantención crítica para la minería e industria en la Región de Antofagasta.
           </p>
         </div>
 
-        {/* 4 Cards Grid with Real Engineers & Workers Images */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        {/* 6 Cards Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {SITE_DATA.services.map((service) => (
             <div
               key={service.id}

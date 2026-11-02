@@ -62,13 +62,25 @@ export default function AboutSection() {
                 <div className="w-5 h-5 rounded-full bg-red-100 text-[#E32819] flex items-center justify-center flex-shrink-0">
                   <Check className="w-3.5 h-3.5 stroke-[3]" />
                 </div>
-                <span>Normas NACE, SSPC e ISO</span>
+                <span>Especialistas en HDPE y Termofusión</span>
               </div>
               <div className="flex items-center gap-2 text-sm font-semibold text-gray-800">
                 <div className="w-5 h-5 rounded-full bg-red-100 text-[#E32819] flex items-center justify-center flex-shrink-0">
                   <Check className="w-3.5 h-3.5 stroke-[3]" />
                 </div>
-                <span>Cobertura en faenas mineras</span>
+                <span>Fibra de Vidrio (FRP) y Viniléster</span>
+              </div>
+              <div className="flex items-center gap-2 text-sm font-semibold text-gray-800">
+                <div className="w-5 h-5 rounded-full bg-red-100 text-[#E32819] flex items-center justify-center flex-shrink-0">
+                  <Check className="w-3.5 h-3.5 stroke-[3]" />
+                </div>
+                <span>Normas ISO 21307, NACE y SSPC</span>
+              </div>
+              <div className="flex items-center gap-2 text-sm font-semibold text-gray-800">
+                <div className="w-5 h-5 rounded-full bg-red-100 text-[#E32819] flex items-center justify-center flex-shrink-0">
+                  <Check className="w-3.5 h-3.5 stroke-[3]" />
+                </div>
+                <span>Cobertura en terreno 24/7 en la II Región</span>
               </div>
             </div>
 

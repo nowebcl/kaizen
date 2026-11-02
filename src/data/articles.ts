@@ -23,6 +23,120 @@ export interface Article {
 
 export const ARTICLES_DATA: Article[] = [
   {
+    slug: "hdpe-antofagasta-termofusion-tuberias-geomembranas",
+    title: "HDPE en Antofagasta: Guía Integral de Termofusión, Tuberías y Geomembranas Mineras",
+    seoTitle: "HDPE Antofagasta | Termofusión, Tuberías y Geomembranas Kaizen",
+    metaDescription: "Servicios líderes de HDPE en Antofagasta. Especialistas en termofusión de tuberías de alta presión, montaje de spools y soldadura de geomembranas HDPE para faenas mineras.",
+    excerpt: "Conoce los estándares técnicos de soldadura por termofusión y montaje de cañerías HDPE en Antofagasta para líneas de agua desalada, pulpas y salmueras mineras.",
+    category: "HDPE & Termofusión",
+    date: "14 de Octubre, 2024",
+    readTime: "7 min de lectura",
+    image: "/images/hero/hero-slide-2.jpg",
+    author: "Ingeniería de Piping y HDPE Kaizen",
+    keywords: [
+      "HDPE Antofagasta",
+      "HDPE en Antofagasta",
+      "hdpe antofagasta",
+      "hdpe en antofagasta",
+      "Termofusión HDPE Antofagasta",
+      "Tuberías HDPE Antofagasta",
+      "Geomembranas HDPE en Antofagasta",
+      "Soldadura HDPE Antofagasta",
+      "Piping HDPE minería Chile"
+    ],
+    content: {
+      intro: "El polietileno de alta densidad (HDPE o PE100) se ha consolidado como el material estructural por excelencia en la Región de Antofagasta. Su excepcional resistencia a la corrosión por agua de mar, salmueras, fluidos ácidos y la abrasión provocada por el transporte de pulpas mineras lo convierten en la alternativa indiscutible para la infraestructura hídrica y de relaves en el norte de Chile.",
+      sections: [
+        {
+          heading: "Termofusión de Tuberías HDPE en Antofagasta: Estándares y Procesos",
+          body: "En Kaizen Ingeniería ejecutamos soldadura a tope por termofusión (butt fusion) y electrofusión de acuerdo con la norma internacional ISO 21307 y ASTM F2620, garantizando uniones monolíticas cuya resistencia mecánica supera a la del propio tubo.",
+          bullets: [
+            "Equipos hidráulicos de termofusión automáticos con registro datalogger para trazabilidad completa de ciclo (presión, temperatura y tiempo de enfriamiento).",
+            "Soldadura de tuberías HDPE en rangos desde 63 mm hasta más de 1200 mm en diversas clases de presión (PN10, PN16, PN25 / SDR 11, SDR 17).",
+            "Electrofusión técnica para intervenciones de precisión en espacios confinados, desvíos y ramales de distribución.",
+            "Ensayos no destructivos (NDT) y curvas de enfriamiento certificadas para dossiers de calidad en faenas mineras."
+          ]
+        },
+        {
+          heading: "Instalación y Soldadura de Geomembranas HDPE en Tranques y Piscinas",
+          body: "Las plantas de lixiviación, piscinas de impulsión y tranques de relaves en Antofagasta, Calama y Mejillones requieren un blindaje impermeable absoluto para cumplir con las exigencias medioambientales y operacionales.",
+          bullets: [
+            "Soldadura automática con cuña caliente de doble canal para comprobación de estanqueidad por prueba de presión de aire.",
+            "Soldadura por extrusión con aporte de cordón HDPE virgen en parches, pasamuros, esquinas y uniones complejas.",
+            "Control riguroso con campana de vacío (vacuum box) y chispero de alta tensión (spark test) para cero porosidad.",
+            "Despliegue y anclaje seguro de láminas lisas y texturadas con geotextil de protección antipunzonamiento."
+          ]
+        },
+        {
+          heading: "Fabricación de Spools, Manifolds y Montaje en Terreno",
+          body: "Disponemos de taller propio y cuadrillas móviles para la prefabricación y ensamble de piezas especiales en HDPE: codos segmentados, tees reducidas, brisas y manifolds de distribución a medida con bridas stub-end y anillos de respaldo en acero al carbono o inoxidable."
+        },
+        {
+          heading: "Cuadrillas Móviles 24/7 en la Región de Antofagasta",
+          body: "Nuestras brigadas de termofusión y montaje de HDPE operan con camionetas taller y generadores autónomos listas para actuar en paradas de planta programadas y atenciones de emergencia en Minera Escondida, Centinela, Spence, Michilla, Sierra Gorda y puertos de la II Región."
+        }
+      ],
+      conclusion: "Si buscas una empresa líder y confiable para proyectos de HDPE en Antofagasta, Kaizen Ingeniería te garantiza ejecución certificada, estanqueidad permanente y tiempos récord de entrega."
+    }
+  },
+  {
+    slug: "fibra-de-vidrio-antofagasta-estanques-revestimientos-frp",
+    title: "Fibra de Vidrio en Antofagasta: Revestimientos FRP, Estanques y Reparaciones Industriales",
+    seoTitle: "Fibra de Vidrio Antofagasta | Revestimientos FRP y Estanques Kaizen",
+    metaDescription: "Especialistas en Fibra de Vidrio en Antofagasta. Revestimientos FRP y viniléster de estanques químicos, tinas electrolíticas, ductos y reparación in situ para la minería.",
+    excerpt: "Descubre cómo los revestimientos en fibra de vidrio (FRP) y resinas viniléster protegen estanques y canaletas ante el ataque químico severo en Antofagasta.",
+    category: "Fibra de Vidrio (FRP)",
+    date: "22 de Octubre, 2024",
+    readTime: "6 min de lectura",
+    image: "/images/services/linings-workers.jpg",
+    author: "División de Materiales Compuestos & FRP Kaizen",
+    keywords: [
+      "Fibra de vidrio Antofagasta",
+      "Fibra de vidrio en Antofagasta",
+      "fibra de vidrio antofagasta",
+      "fibra de vidrio en antofagasta",
+      "Revestimientos fibra de vidrio Antofagasta",
+      "Estanques fibra de vidrio Antofagasta",
+      "Laminado FRP Antofagasta",
+      "Reparación fibra de vidrio terreno Antofagasta",
+      "Resinas viniléster minería Chile"
+    ],
+    content: {
+      intro: "La industria hidrometalúrgica del cobre y litio en la Región de Antofagasta opera bajo condiciones químicas extremas: ácido sulfúrico concentrado, electrólitos a temperaturas elevadas, salmueras hipersalinas y gases corrosivos. Ante este entorno destructivo, las soluciones en Fibra de Vidrio (FRP - Fiber Reinforced Polymer) constituyen la barrera definitiva para garantizar la integridad estructural y la longevidad de estanques, tinas y ductos.",
+      sections: [
+        {
+          heading: "Revestimientos Monolíticos de Estanques en Fibra de Vidrio (FRP)",
+          body: "En Kaizen Ingeniería diseñamos y aplicamos revestimientos continuos sin juntas en estanques de hormigón y acero al carbono, combinando tejidos técnicos de fibra de vidrio con resinas de alta ingeniería:",
+          bullets: [
+            "Resinas Viniléster Epoxi-Novolac: Resistencia incomparable frente a ácido sulfúrico concentrado al 98%, ácido clorhídrico y solventes orgánicos.",
+            "Estructura multicapa: Velo sintético o velo C para la barrera química anticorrosiva, seguido de múltiples capas de chopped strand mat (CSM) y woven roving para máxima solidez mecánica.",
+            "Acabado topcoat con parafina para inhibir el oxígeno del aire y lograr una polimerización completa y superficie lisa autolimpiante.",
+            "Control de espesores, dureza Barcol y ensayo de chispero (holiday detector) a alto voltaje para certificar cero microfisuras."
+          ]
+        },
+        {
+          heading: "Reparación In Situ y Laminado Estructural en Faena",
+          body: "Las fallas imprevistas por fisuras, filtraciones o delaminación en estanques espesadores, celdas de electroobtención (EW) o canaletas requieren intervención inmediata sin necesidad de desmantelar equipos de gran envergadura.",
+          bullets: [
+            "Saneamiento mecánico por desbaste de fibra dañada hasta alcanzar material sano.",
+            "Aplicación de primers promotores de adherencia sobre sustratos húmedos o contaminados.",
+            "Relaminado estructural con resina viniléster de curado rápido adaptada al gradiente térmico de la puna y el desierto de Atacama.",
+            "Pruebas hidrostáticas y de hermeticidad antes de la puesta en marcha operacional."
+          ]
+        },
+        {
+          heading: "Ductos, Lavadores de Gases y Piezas Especiales FRP",
+          body: "Fabricamos y reparamos tramos de cañerías, campanas de extracción, manifolds y ductos para gases ácidos conforme a normativas ASTM D3299, ASTM D4097 y ASME RTP-1, entregando componentes livianos, inmunes a la corrosión y con vida útil proyectada superior a 25 años."
+        },
+        {
+          heading: "Cobertura Integral en Antofagasta y Segunda Región",
+          body: "Contamos con brigadas especializadas en trabajos en espacios confinados, personal calificado en laminado compuesto y planes de aseguramiento de calidad (QA/QC) desplegables en plantas de Antofagasta, Calama, Tocopilla y Mejillones."
+        }
+      ],
+      conclusion: "Para proyectos de fabricación, revestimiento o reparación en fibra de vidrio en Antofagasta, confía en la trayectoria, seguridad y respaldo técnico de Kaizen Ingeniería."
+    }
+  },
+  {
     slug: "proteccion-anticorrosiva-en-antofagasta",
     title: "Protección Anticorrosiva en Antofagasta: Guía Integral para la Gran Minería e Industria",
     seoTitle: "Protección Anticorrosiva en Antofagasta | Servicios Mineros Kaizen",
@@ -83,6 +197,8 @@ export const ARTICLES_DATA: Article[] = [
     author: "Equipo Técnico Kaizen",
     keywords: [
       "Revestimientos industriales en Antofagasta",
+      "Fibra de vidrio Antofagasta",
+      "Fibra de vidrio en Antofagasta",
       "Linings de fibra de vidrio Antofagasta",
       "Revestimiento de viniléster Chile",
       "Poliurea proyectada Antofagasta",
@@ -106,6 +222,42 @@ export const ARTICLES_DATA: Article[] = [
         }
       ],
       conclusion: "Si buscas una empresa líder en revestimientos industriales en Antofagasta, Kaizen Ingeniería te brinda asesoría técnica especializada y ejecución con brigadas certificadas."
+    }
+  },
+  {
+    slug: "impermeabilizacion-tecnica-y-geomembranas-antofagasta",
+    title: "Impermeabilización Técnica y Geomembranas en Antofagasta: Cero Filtraciones",
+    seoTitle: "Impermeabilización y Geomembranas en Antofagasta | Kaizen",
+    metaDescription: "Instalación y sellado de geomembranas HDPE en Antofagasta. Impermeabilización de tranques de relaves, piscinas de acumulación y zanjas en minería.",
+    excerpt: "Control integral de pérdidas y prevención de contaminación en piscinas de procesos y tranques mediante geomembranas de polietileno de alta densidad.",
+    category: "Impermeabilización",
+    date: "20 de Julio, 2024",
+    readTime: "6 min de lectura",
+    image: "/images/hero/hero-slide-3.jpg",
+    author: "Especialistas en Geosintéticos Kaizen",
+    keywords: [
+      "Impermeabilización técnica Antofagasta",
+      "Geomembranas HDPE en Antofagasta",
+      "HDPE Antofagasta",
+      "HDPE en Antofagasta",
+      "Sellado termofusión tranques mineros",
+      "Piscinas de acumulación de agua salada",
+      "Revestimiento de piscinas industriales Chile"
+    ],
+    content: {
+      intro: "La escasez hídrica en el desierto de Atacama hace que la gestión y conservación del agua sea una prioridad estratégica. Las piscinas de almacenamiento de agua desalada, tranques y zanjas de lixiviación requieren sistemas de impermeabilización con geomembranas HDPE que garanticen estanqueidad total durante décadas.",
+      sections: [
+        {
+          heading: "Servicios de Instalación y Soldadura por Termofusión",
+          body: "En Kaizen Ingeniería contamos con equipos automáticos de cuña caliente y extrusoras manuales con registro digital de parámetros para asegurar costuras homogéneas e indestructibles.",
+          bullets: [
+            "Ensayos de presión de aire en doble canal de soldadura y ensayos con caja de vacío (vacuum box).",
+            "Instalación de geotextiles no tejidos de protección mecánica antipunzonamiento.",
+            "Reparación de roturas y mantenimiento preventivo en geomembranas existentes."
+          ]
+        }
+      ],
+      conclusion: "Garantiza la estanqueidad de tus piscinas y tranques con el servicio de impermeabilización técnica de Kaizen Ingeniería en Antofagasta."
     }
   },
   {
@@ -176,40 +328,6 @@ export const ARTICLES_DATA: Article[] = [
         }
       ],
       conclusion: "Kaizen Ingeniería es tu socio estratégico para proyectos civiles e industriales en toda la Región de Antofagasta."
-    }
-  },
-  {
-    slug: "impermeabilizacion-tecnica-y-geomembranas-antofagasta",
-    title: "Impermeabilización Técnica y Geomembranas en Antofagasta: Cero Filtraciones",
-    seoTitle: "Impermeabilización y Geomembranas en Antofagasta | Kaizen",
-    metaDescription: "Instalación y sellado de geomembranas HDPE en Antofagasta. Impermeabilización de tranques de relaves, piscinas de acumulación y zanjas en minería.",
-    excerpt: "Control integral de pérdidas y prevención de contaminación en piscinas de procesos y tranques mediante geomembranas de polietileno de alta densidad.",
-    category: "Impermeabilización",
-    date: "20 de Julio, 2024",
-    readTime: "6 min de lectura",
-    image: "/images/hero/hero-slide-3.jpg",
-    author: "Especialistas en Geosintéticos Kaizen",
-    keywords: [
-      "Impermeabilización técnica Antofagasta",
-      "Geomembranas HDPE en Antofagasta",
-      "Sellado termofusión tranques mineros",
-      "Piscinas de acumulación de agua salada",
-      "Revestimiento de piscinas industriales Chile"
-    ],
-    content: {
-      intro: "La escasez hídrica en el desierto de Atacama hace que la gestión y conservación del agua sea una prioridad estratégica. Las piscinas de almacenamiento de agua desalada, tranques y zanjas de lixiviación requieren sistemas de impermeabilización con geomembranas HDPE que garanticen estanqueidad total durante décadas.",
-      sections: [
-        {
-          heading: "Servicios de Instalación y Soldadura por Termofusión",
-          body: "En Kaizen Ingeniería contamos con equipos automáticos de cuña caliente y extrusoras manuales con registro digital de parámetros para asegurar costuras homogéneas e indestructibles.",
-          bullets: [
-            "Ensayos de presión de aire en doble canal de soldadura y ensayos con caja de vacío (vacuum box).",
-            "Instalación de geotextiles no tejidos de protección mecánica antipunzonamiento.",
-            "Reparación de roturas y mantenimiento preventivo en geomembranas existentes."
-          ]
-        }
-      ],
-      conclusion: "Garantiza la estanqueidad de tus piscinas y tranques con el servicio de impermeabilización técnica de Kaizen Ingeniería en Antofagasta."
     }
   }
 ];

@@ -8,7 +8,7 @@ export interface ProjectItem {
 
 export interface ServiceItem {
   id: string;
-  iconName: 'ShieldAlert' | 'Paintbrush' | 'Wrench' | 'Building2';
+  iconName: 'ShieldAlert' | 'Paintbrush' | 'Wrench' | 'Building2' | 'Layers' | 'Flame';
   title: string;
   description: string;
   image: string;
@@ -37,9 +37,9 @@ export const SITE_DATA = {
   company: {
     name: "Kaizen Ingeniería",
     legalName: "KAIZEN INGENIERIA LTDA. / SpA",
-    tagline: "Soluciones de ingeniería que impulsan tu operación.",
-    shortDescription: "Expertos en anticorrosión, revestimientos y mantenimiento industrial de alto desempeño.",
-    fullDescription: "En Kaizen Ingeniería desarrollamos soluciones de ingeniería especializada en protección anticorrosiva, revestimientos industriales, obras civiles y mantención de infraestructura crítica. Nos enfocamos en entregar resultados medibles, cumpliendo los más altos estándares de calidad y seguridad.",
+    tagline: "Especialistas en HDPE, Fibra de Vidrio y Revestimientos en Antofagasta.",
+    shortDescription: "Líderes en servicios de HDPE y Fibra de Vidrio en Antofagasta. Termofusión, geomembranas y revestimientos FRP para minería.",
+    fullDescription: "En Kaizen Ingeniería desarrollamos soluciones de ingeniería especializada en HDPE en Antofagasta (termofusión, piping y geomembranas), revestimientos y estanques en fibra de vidrio (FRP), protección anticorrosiva, obras civiles y mantención de infraestructura crítica en la Región de Antofagasta.",
     phone: "+56 9 8583 5695",
     phoneSecondary: "+56 9 7573 3079",
     phoneFormatted: "+56 9 8583 5695",
@@ -65,9 +65,9 @@ export const SITE_DATA = {
     {
       id: 1,
       image: "/images/hero/hero-slide-1.jpg",
-      tag: "INGENIERÍA ESPECIALIZADA",
-      title: "Soluciones de ingeniería que impulsan tu operación.",
-      subtitle: "Expertos en anticorrosión, revestimientos de estanques en fibra de vidrio y mantenimiento industrial de alto desempeño.",
+      tag: "HDPE Y FIBRA DE VIDRIO EN ANTOFAGASTA",
+      title: "Líderes en HDPE y Fibra de Vidrio en Antofagasta.",
+      subtitle: "Especialistas en termofusión de tuberías HDPE, geomembranas y revestimientos de estanques en fibra de vidrio (FRP) para la minería e industria.",
       ctaPrimary: "VER SERVICIOS",
       ctaPrimaryHref: "/servicios",
       ctaSecondary: "COTIZAR PROYECTO",
@@ -76,31 +76,31 @@ export const SITE_DATA = {
     {
       id: 2,
       image: "/images/hero/hero-slide-2.jpg",
-      tag: "CAPITAL HUMANO & SEGURIDAD",
-      title: "Ingeniería en terreno con los más altos estándares.",
-      subtitle: "Personal técnico certificado y protocolos rigurosos para garantizar entornos seguros y continuidad operacional en cada faena.",
-      ctaPrimary: "CONOCE MÁS",
-      ctaPrimaryHref: "/nosotros",
-      ctaSecondary: "VER SERVICIOS",
-      ctaSecondaryHref: "/servicios",
+      tag: "SERVICIOS DE HDPE EN ANTOFAGASTA",
+      title: "Termofusión de HDPE y piping minero de alta presión.",
+      subtitle: "Personal técnico certificado en soldadura a tope, electrofusión e instalación de tuberías HDPE en faenas de Antofagasta, Calama y Mejillones.",
+      ctaPrimary: "SERVICIOS HDPE",
+      ctaPrimaryHref: "/servicios#hdpe",
+      ctaSecondary: "VER PROYECTOS",
+      ctaSecondaryHref: "/proyectos",
     },
     {
       id: 3,
       image: "/images/hero/hero-slide-3.jpg",
-      tag: "INFRAESTRUCTURA CRÍTICA",
-      title: "Protegemos tus activos. Optimizamos tu operación.",
-      subtitle: "Impermeabilización técnica, revestimientos de geomembranas y protección de infraestructura para minería e industria.",
-      ctaPrimary: "VER PROYECTOS",
-      ctaPrimaryHref: "/proyectos",
+      tag: "FIBRA DE VIDRIO EN ANTOFAGASTA",
+      title: "Revestimientos en fibra de vidrio y estanques FRP.",
+      subtitle: "Linings antiácidos en viniléster, fabricación, reparación in situ y laminado estructural en fibra de vidrio para condiciones químicas extremas.",
+      ctaPrimary: "FIBRA DE VIDRIO",
+      ctaPrimaryHref: "/servicios#fibra-de-vidrio",
       ctaSecondary: "CONTACTAR AHORA",
       ctaSecondaryHref: "/contacto",
     }
   ] as HeroSlide[],
 
   hero: {
-    tag: "INGENIERÍA ESPECIALIZADA",
-    title: "Soluciones de ingeniería que impulsan tu operación.",
-    subtitle: "Expertos en anticorrosión, revestimientos y mantenimiento industrial de alto desempeño.",
+    tag: "HDPE Y FIBRA DE VIDRIO EN ANTOFAGASTA",
+    title: "Servicios de HDPE y Fibra de Vidrio en Antofagasta",
+    subtitle: "Termofusión de tuberías HDPE, geomembranas, revestimientos en fibra de vidrio (FRP) y mantenimiento industrial de alto desempeño.",
     ctaPrimary: "VER SERVICIOS",
     ctaPrimaryHref: "/servicios",
   },
@@ -163,6 +163,30 @@ export const SITE_DATA = {
 
   services: [
     {
+      id: "hdpe",
+      iconName: "Flame" as const,
+      title: "Servicios de HDPE en Antofagasta",
+      description: "Especialistas en termofusión de tuberías HDPE, electrofusión, montaje de piping minero y sellado de geomembranas para la industria y minería.",
+      image: "/images/hero/hero-slide-2.jpg",
+      details: [
+        "Termofusión a tope de cañerías HDPE en diámetros de alta presión",
+        "Instalación y sellado de geomembranas HDPE por cuña caliente",
+        "Fabricación de manifolds, spools y fitting HDPE en terreno y taller"
+      ]
+    },
+    {
+      id: "fibra-de-vidrio",
+      iconName: "Layers" as const,
+      title: "Fibra de Vidrio en Antofagasta (FRP)",
+      description: "Revestimiento de estanques en fibra de vidrio, linings antiácidos en resina viniléster y reparación in situ de ductos, celdas y canaletas.",
+      image: "/images/services/linings-workers.jpg",
+      details: [
+        "Revestimientos de estanques en fibra de vidrio y viniléster (FRP)",
+        "Reparación estructural in situ y laminado en faenas mineras 24/7",
+        "Protección química extrema ante ácido sulfúrico y fluidos agresivos"
+      ]
+    },
+    {
       id: "anticorrosiva",
       iconName: "ShieldAlert" as const,
       title: "Protección anticorrosiva",
@@ -175,7 +199,7 @@ export const SITE_DATA = {
       iconName: "Paintbrush" as const,
       title: "Revestimientos industriales",
       description: "Aplicación de linings y recubrimientos especiales para ambientes agresivos y condiciones extremas.",
-      image: "/images/services/linings-workers.jpg",
+      image: "/images/hero/hero-slide-1.jpg",
       details: ["Linings de viniléster y fibra de vidrio", "Poliureas y elastómeros", "Pisos industriales de alto tráfico"]
     },
     {
@@ -215,23 +239,33 @@ export const SITE_DATA = {
   faqs: [
     {
       id: 1,
-      question: "¿Qué tipo de proyectos realizan?",
-      answer: "Nos especializamos en proyectos de protección anticorrosiva integral, aplicación de revestimientos técnicos (linings epóxicos, viniléster, poliureas), obras civiles, mantención de tanques, tuberías y paradas de planta para la industria minera, energética e industrial."
+      question: "¿Qué servicios de HDPE realizan en Antofagasta?",
+      answer: "En Kaizen Ingeniería somos especialistas en servicios de HDPE en Antofagasta y faenas mineras de la II Región. Ejecutamos termofusión a tope y electrofusión de tuberías HDPE de alta presión para líneas de impulsión de agua de mar, salmueras, concentrados y pulpas mineras. Además, proveemos montaje de spools, manifolds y soldadura certificada de geomembranas HDPE para piscinas de lixiviación y tranques de relaves con control de calidad mediante caja de vacío y pruebas destructivas/no destructivas."
     },
     {
       id: 2,
-      question: "¿En qué zonas trabajan?",
-      answer: "Nuestra base central se encuentra en Antofagasta, prestando cobertura integral en toda la II Región (Antofagasta, Calama, Mejillones, Tocopilla) y desplegando cuadrillas especializadas a lo largo de todo Chile según los requerimientos del cliente."
+      question: "¿Realizan revestimientos y reparación en fibra de vidrio (FRP) en Antofagasta?",
+      answer: "Sí, somos empresa referente en aplicaciones de fibra de vidrio en Antofagasta. Desarrollamos revestimientos monolíticos en fibra de vidrio (FRP) con resinas viniléster y epóxicas de alta resistencia química para proteger estanques de ácido sulfúrico, celdas electrolíticas, tinas EW, canaletas y ductos. Ofrecemos también servicio de emergencia para laminado estructural y reparación de estanques en fibra de vidrio in situ en faenas mineras."
     },
     {
       id: 3,
-      question: "¿Cómo aseguran la calidad de sus trabajos?",
-      answer: "Aplicamos rigurosos controles de calidad bajo normativas internacionales (SSPC, NACE, ASTM, ISO). Cada proyecto cuenta con dossier de calidad, certificados de calibración, pruebas de adherencia, medición de rugosidad, espesores de película seca y ensayos de detección de discontinuidades (holiday detector)."
+      question: "¿Qué tipo de proyectos industriales atienden?",
+      answer: "Nos especializamos en proyectos de termofusión de HDPE, aplicaciones en fibra de vidrio, protección anticorrosiva bajo normas SSPC/NACE, aplicación de revestimientos técnicos (linings epóxicos, viniléster, poliureas), obras civiles, mantención de tanques, tuberías y paradas de planta para la gran minería e industria."
     },
     {
       id: 4,
-      question: "¿Cuáles son sus tiempos de respuesta?",
-      answer: "Contamos con cuadrillas de rápida movilización para atenciones de emergencia operacional y entregamos propuestas técnico-económicas detalladas en un plazo promedio de 24 a 48 horas tras la visita técnica o recepción de especificaciones."
+      question: "¿En qué zonas y faenas mineras prestan servicios?",
+      answer: "Nuestra base de operaciones está en Antofagasta, con cobertura inmediata en toda la II Región (Antofagasta, Calama, Mejillones, Tocopilla, Sierra Gorda) y capacidad técnica para desplegar cuadrillas especializadas con equipamiento autónomo a lo largo de todo Chile."
+    },
+    {
+      id: 5,
+      question: "¿Cómo aseguran la calidad y seguridad de sus trabajos?",
+      answer: "Aplicamos rigurosos protocolos de calidad bajo normativas internacionales (SSPC, NACE/AMPP, ASTM, ASME RTP-1, ISO). Cada servicio cuenta con operadores calificados, dossier de calidad, certificados de calibración, pruebas de adherencia, control de rugosidad, espesores de película seca y detección de discontinuidades (holiday detector)."
+    },
+    {
+      id: 6,
+      question: "¿Cuáles son sus tiempos de respuesta para cotizaciones y emergencias?",
+      answer: "Contamos con brigadas móviles preparadas para rápida movilización ante emergencias operacionales 24/7 y entregamos propuestas técnico-económicas detalladas en un plazo promedio de 24 a 48 horas tras el levantamiento en terreno o recepción de bases técnicas."
     }
   ]
 };

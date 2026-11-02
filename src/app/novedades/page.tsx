@@ -8,13 +8,16 @@ import FloatingContact from "@/components/FloatingContact";
 import { ARTICLES_DATA } from "@/data/articles";
 
 export const metadata = {
-  title: "Novedades y Artículos Técnicos | Kaizen Ingeniería Antofagasta",
-  description: "Artículos técnicos y guías especializadas en protección anticorrosiva, revestimientos industriales, obras civiles y mantención en Antofagasta y faenas mineras.",
+  title: "Novedades y Guías Técnicas | HDPE y Fibra de Vidrio en Antofagasta",
+  description: "Artículos técnicos y guías especializadas en servicios de HDPE, termofusión, fibra de vidrio (FRP), protección anticorrosiva y mantención en Antofagasta.",
   keywords: [
+    "HDPE Antofagasta",
+    "HDPE en Antofagasta",
+    "Fibra de vidrio Antofagasta",
+    "Fibra de vidrio en Antofagasta",
     "Protección anticorrosiva en Antofagasta",
     "Revestimientos industriales Antofagasta",
     "Mantenimiento industrial minería Chile",
-    "Obras civiles en Antofagasta",
     "Geomembranas y tranques de relaves"
   ],
 };
