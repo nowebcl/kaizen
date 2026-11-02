@@ -6,8 +6,16 @@ import ClientsCarousel from "@/components/ClientsCarousel";
 import FloatingContact from "@/components/FloatingContact";
 
 export const metadata = {
-  title: "Portafolio de Proyectos | Kaizen Ingeniería Antofagasta",
-  description: "Explora nuestra galería completa de proyectos en minería, estanques, revestimientos y mantención industrial.",
+  title: "Trabajos Ejecutados en HDPE y Fibra de Vidrio | Kaizen Ingeniería Antofagasta",
+  description: "Registro visual de trabajos ejecutados en HDPE, termofusión, revestimientos en fibra de vidrio (FRP), piping y piezas especiales para la gran minería e industria.",
+  keywords: [
+    "hdpe antofagasta",
+    "hdpe en antofagasta",
+    "fibra de vidrio antofagasta",
+    "fibra de vidrio en antofagasta",
+    "trabajos hdpe antofagasta",
+    "estanques fibra de vidrio antofagasta"
+  ]
 };
 
 export default function ProyectosPage() {
@@ -15,22 +23,10 @@ export default function ProyectosPage() {
     <main className="min-h-screen bg-[#0B131E]">
       <Header />
 
-      {/* Hero Header */}
-      <section className="relative pt-36 pb-8 bg-[#0B131E] text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4">
-          <span className="text-xs sm:text-sm font-extrabold uppercase tracking-widest text-[#E32819]">
-            PORTAFOLIO DE OBRAS
-          </span>
-          <h1 className="text-3xl sm:text-5xl font-extrabold text-white">
-            Nuestros Proyectos Ejecutados
-          </h1>
-          <p className="text-gray-400 max-w-2xl mx-auto text-sm sm:text-base">
-            Obras de alto desempeño certificadas bajo normas internacionales en minería y plantas industriales.
-          </p>
-        </div>
-      </section>
+      {/* Top spacing for fixed header */}
+      <div className="pt-24 sm:pt-28" />
 
-      {/* Gallery */}
+      {/* Clean Gallery without title - only images with work name */}
       <ProjectsGallery />
 
       {/* Clients Carousel */}

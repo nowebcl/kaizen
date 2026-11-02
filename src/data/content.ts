@@ -1,9 +1,11 @@
+import { WORK_PROJECTS, WorkItem } from "./projects";
+
 export interface ProjectItem {
   id: number;
   title: string;
   category: string;
   image: string;
-  description: string;
+  description?: string;
 }
 
 export interface ServiceItem {
@@ -135,30 +137,33 @@ export const SITE_DATA = {
     tag: "INGENIERÍA CON PROPÓSITO",
     title: "Protegemos tus activos. Optimizamos tu operación.",
     paragraphs: [
-      "En Kaizen Ingeniería desarrollamos soluciones de ingeniería especializada en protección anticorrosiva, revestimientos industriales, obras civiles y mantención de infraestructura crítica.",
-      "Nos enfocamos en entregar resultados medibles, cumpliendo los más altos estándares de calidad y seguridad."
+      "En Kaizen Ingeniería desarrollamos proyectos de fabricación y montaje de piping en HDPE, fabricación de estanques y piezas especiales en fibra de vidrio (FRP), revestimientos anticorrosivos de estanques de acero mediante sistemas FRP y fabricación de componentes especiales en HDPE en Antofagasta.",
+      "Ofrecemos soluciones a medida para la industria minera e industrial, de acuerdo con los requerimientos técnicos de cada proyecto, priorizando la seguridad, calidad y confiabilidad de nuestros trabajos."
     ],
     cta: "CONOCE MÁS",
     ctaHref: "/nosotros",
     image: "/images/experience-team.jpg"
   },
 
-  projects: Array.from({ length: 18 }, (_, index) => {
-    const id = index + 1;
-    return {
-      id,
-      title: `Galería ${id}`,
-      category: `Galería`,
-      image: `/images/galeria/galeria-${id}.jpg`,
-      description: `Registro fotográfico de obra y servicios especializados Kaizen Ingeniería - Proyecto ${id}.`
-    };
-  }) as ProjectItem[],
+  projects: WORK_PROJECTS as ProjectItem[],
 
   clients: [
-    { name: "Garreau Ingeniería y Construcción", logo: "/images/clients/garreau.svg", width: 180, height: 50 },
-    { name: "Empresa Portuaria Austral", logo: "/images/clients/austral.svg", width: 180, height: 50 },
-    { name: "Minera Michilla - Antofagasta Minerals", logo: "/images/clients/michilla.svg", width: 180, height: 50 },
-    { name: "BHP Billiton", logo: "/images/clients/bhp.svg", width: 180, height: 50 },
+    { name: "TierraU", logo: "/images/clients/tierrau.jpg" },
+    { name: "Emaresa", logo: "/images/clients/emaresa.png" },
+    { name: "Beka", logo: "/images/clients/beka.png" },
+    { name: "Molynor", logo: "/images/clients/molynor.png" },
+    { name: "BHP Billiton", logo: "/images/clients/bhp.jpg" },
+    { name: "Sawu", logo: "/images/clients/sawu.png" },
+    { name: "Hidronor", logo: "/images/clients/hidronor.png" },
+    { name: "Cosemar", logo: "/images/clients/cosemar.jpg" },
+    { name: "Puffer", logo: "/images/clients/puffer.png" },
+    { name: "Enerfrost", logo: "/images/clients/enerfrost.png" },
+    { name: "Westfire", logo: "/images/clients/westfire.jpg" },
+    { name: "Mas Errázuriz", logo: "/images/clients/mas-errazuriz.png" },
+    { name: "Molyb", logo: "/images/clients/molyb.jpg" },
+    { name: "JMAQ", logo: "/images/clients/jmaq.png" },
+    { name: "Interacid", logo: "/images/clients/interacid.png" },
+    { name: "Paranal", logo: "/images/clients/paranal.jpg" },
   ],
 
   services: [
@@ -239,18 +244,18 @@ export const SITE_DATA = {
   faqs: [
     {
       id: 1,
+      question: "¿Cuáles son nuestros principales servicios y especialidades?",
+      answer: "En Kaizen Ingeniería desarrollamos proyectos de fabricación y montaje de piping en HDPE, fabricación de estanques y piezas especiales en fibra de vidrio (FRP), revestimientos anticorrosivos de estanques de acero mediante sistemas FRP y fabricación de componentes especiales en HDPE. Ofrecemos soluciones a medida para la industria minera e industrial, de acuerdo con los requerimientos técnicos de cada proyecto, priorizando la seguridad, calidad y confiabilidad de nuestros trabajos."
+    },
+    {
+      id: 2,
       question: "¿Qué servicios de HDPE realizan en Antofagasta?",
       answer: "En Kaizen Ingeniería somos especialistas en servicios de HDPE en Antofagasta y faenas mineras de la II Región. Ejecutamos termofusión a tope y electrofusión de tuberías HDPE de alta presión para líneas de impulsión de agua de mar, salmueras, concentrados y pulpas mineras. Además, proveemos montaje de spools, manifolds y soldadura certificada de geomembranas HDPE para piscinas de lixiviación y tranques de relaves con control de calidad mediante caja de vacío y pruebas destructivas/no destructivas."
     },
     {
-      id: 2,
+      id: 3,
       question: "¿Realizan revestimientos y reparación en fibra de vidrio (FRP) en Antofagasta?",
       answer: "Sí, somos empresa referente en aplicaciones de fibra de vidrio en Antofagasta. Desarrollamos revestimientos monolíticos en fibra de vidrio (FRP) con resinas viniléster y epóxicas de alta resistencia química para proteger estanques de ácido sulfúrico, celdas electrolíticas, tinas EW, canaletas y ductos. Ofrecemos también servicio de emergencia para laminado estructural y reparación de estanques en fibra de vidrio in situ en faenas mineras."
-    },
-    {
-      id: 3,
-      question: "¿Qué tipo de proyectos industriales atienden?",
-      answer: "Nos especializamos en proyectos de termofusión de HDPE, aplicaciones en fibra de vidrio, protección anticorrosiva bajo normas SSPC/NACE, aplicación de revestimientos técnicos (linings epóxicos, viniléster, poliureas), obras civiles, mantención de tanques, tuberías y paradas de planta para la gran minería e industria."
     },
     {
       id: 4,

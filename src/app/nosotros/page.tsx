@@ -54,10 +54,10 @@ export default function NosotrosPage() {
               Compromiso constante con la optimización y la mejora continua
             </h2>
             <p className="text-gray-600 text-sm sm:text-base leading-relaxed">
-              Desde 2013, <strong>KAIZEN INGENIERÍA LTDA.</strong> ha trabajado con clientes en una amplia gama de proyectos de ingeniería innovadores. A través de nuestras actividades, nuestro objetivo es utilizar las últimas tecnologías para mejorar la operatividad y extender la vida útil de los activos industriales.
+              Desde 2013, <strong>KAIZEN INGENIERÍA</strong> desarrolla proyectos especializados en fabricación y montaje de piping en HDPE, fabricación de estanques y piezas especiales en fibra de vidrio (FRP), revestimientos anticorrosivos de estanques de acero mediante sistemas FRP y componentes especiales en HDPE.
             </p>
             <p className="text-gray-600 text-sm sm:text-base leading-relaxed">
-              Nuestro foco principal es servir a clientes de los sectores minero, energético, marítimo e industrial con soluciones técnicas de alto estándar, garantizando seguridad, cumplimiento de plazos y excelencia en la ejecución.
+              Ofrecemos soluciones a medida para la industria minera e industrial en Antofagasta y todo Chile, de acuerdo con los requerimientos técnicos de cada proyecto, priorizando la seguridad, calidad y confiabilidad en cada faena.
             </p>
           </div>
         </div>
